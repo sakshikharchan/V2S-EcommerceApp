@@ -1,0 +1,402 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "OnePlus 10 Pro 5G",
+      "price": 66999,
+      "originalPrice": 71999,
+      "discount": 7,
+      "rating": 4.5,
+      "reviews": 1245,
+      "image": "https://m.media-amazon.com/images/I/61mIUCd-37L._SL1500_.jpg",
+      "additionalImages": [
+        "https://m.media-amazon.com/images/I/71geVdy6-OS._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61cj5hRXPLL._SL1500_.jpg"
+      ],
+      "brand": "OnePlus",
+      "color": "Black",
+      "sizes": [],
+      "category": "Electronics",
+      "description": "6.7-inch QHD+ AMOLED, Snapdragon 8 Gen 1, triple camera system.",
+      "details": {
+        "Display": "6.7-inch QHD+ AMOLED, 120Hz",
+        "Processor": "Snapdragon 8 Gen 1",
+        "RAM": "12GB",
+        "Storage": "256GB",
+        "Battery": "5000mAh, 80W fast charging"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Max Running Shoes",
+      "price": 5999,
+      "originalPrice": 7999,
+      "discount": 25,
+      "rating": 4.3,
+      "reviews": 543,
+      "image": "https://th.bing.com/th/id/OIP.LWue3Q0_FRU8yO4FIC8zdgHaHa",
+      "additionalImages": [
+        "https://m.media-amazon.com/images/I/71S8qt+K8hL._UL1500_.jpg"
+      ],
+      "brand": "Nike",
+      "color": "White",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "category": "fashion",
+      "description": "Lightweight running shoes with Air Max cushioning.",
+      "details": {
+        "Material": "Mesh",
+        "Closure": "Lace-up",
+        "Weight": "300g"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy S22 Ultra",
+      "price": 109999,
+      "originalPrice": 119999,
+      "discount": 8,
+      "rating": 4.8,
+      "reviews": 2103,
+      "image": "https://m.media-amazon.com/images/I/71HUnJvHsbL._SL1500_.jpg",
+      "additionalImages": [],
+      "brand": "Samsung",
+      "color": "Phantom Black",
+      "sizes": [],
+      "category": "electronics",
+      "description": "6.8-inch AMOLED, S-Pen support, 108MP camera.",
+      "details": {
+        "Battery": "5000mAh",
+        "RAM": "12GB",
+        "Storage": "256GB"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Apple MacBook Air M2",
+      "price": 114999,
+      "originalPrice": 124900,
+      "discount": 8,
+      "rating": 4.7,
+      "reviews": 321,
+      "image": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SL1500_.jpg",
+      "brand": "Apple",
+      "color": "Midnight",
+      "sizes": [],
+      "category": "electronics",
+      "description": "Apple M2 chip, 13.6-inch Retina display, fanless design.",
+      "details": {
+        "Processor": "Apple M2",
+        "RAM": "8GB",
+        "Storage": "512GB SSD"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Adidas Men’s Jacket",
+      "price": 2999,
+      "originalPrice": 4999,
+      "discount": 40,
+      "rating": 4.1,
+      "reviews": 98,
+      "image": "https://m.media-amazon.com/images/I/71Ba3+WRvGL._UL1500_.jpg",
+      "brand": "Adidas",
+      "color": "Blue",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "category": "fashion",
+      "description": "Winter wear with breathable material.",
+      "details": {
+        "Material": "Polyester",
+        "Sleeves": "Full",
+        "Closure": "Zipper"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Sony WH-1000XM5 Headphones",
+      "price": 29990,
+      "originalPrice": 34990,
+      "discount": 14,
+      "rating": 4.6,
+      "reviews": 652,
+      "image": "https://m.media-amazon.com/images/I/61Id6WJDWqL._SL1500_.jpg",
+      "brand": "Sony",
+      "color": "Black",
+      "sizes": [],
+      "category": "electronics",
+      "description": "Industry-leading noise canceling over-ear headphones.",
+      "details": {
+        "Battery": "30 hours",
+        "Connectivity": "Bluetooth 5.2",
+        "Weight": "250g"
+      }
+    },
+    {
+      "id": 7,
+      "name": "boAt Rockerz 450",
+      "price": 1499,
+      "originalPrice": 3990,
+      "discount": 62,
+      "rating": 4.2,
+      "reviews": 1999,
+      "image": "https://m.media-amazon.com/images/I/61u48FEs3IL._SL1500_.jpg",
+      "brand": "boAt",
+      "color": "Aqua Blue",
+      "sizes": [],
+      "category": "electronics",
+      "description": "Bluetooth headphones with up to 15 hours playtime.",
+      "details": {
+        "Driver": "40mm",
+        "Battery": "300mAh",
+        "Connectivity": "Bluetooth"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Allen Solly Men Slim Fit Shirt",
+      "price": 1399,
+      "originalPrice": 1999,
+      "discount": 30,
+      "rating": 4.3,
+      "reviews": 234,
+      "image": "https://m.media-amazon.com/images/I/71ICJzNxeDL._UL1500_.jpg",
+      "brand": "Allen Solly",
+      "color": "Sky Blue",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "category": "fashion",
+      "description": "Formal shirt for men with cotton-rich fabric.",
+      "details": {
+        "Material": "Cotton Blend",
+        "Pattern": "Solid",
+        "Sleeves": "Full"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Lenovo IdeaPad Slim 5",
+      "price": 58990,
+      "originalPrice": 64990,
+      "discount": 9,
+      "rating": 4.4,
+      "reviews": 112,
+      "image": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg",
+      "brand": "Lenovo",
+      "color": "Graphite Grey",
+      "sizes": [],
+      "category": "electronics",
+      "description": "11th Gen Intel i5, 512GB SSD, 15.6-inch FHD display.",
+      "details": {
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Display": "15.6-inch"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Puma Women’s T-shirt",
+      "price": 999,
+      "originalPrice": 1499,
+      "discount": 33,
+      "rating": 4.5,
+      "reviews": 190,
+      "image": "https://m.media-amazon.com/images/I/61Y6FtaZ0bL._UL1500_.jpg",
+      "brand": "Puma",
+      "color": "Pink",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "category": "fashion",
+      "description": "Casual slim fit tee with logo design.",
+      "details": {
+        "Material": "Cotton",
+        "Neck": "Round",
+        "Sleeves": "Short"
+      }
+    },
+    {
+      "id": 11,
+      "name": "LG 7 Kg Washing Machine",
+      "price": 17999,
+      "originalPrice": 21999,
+      "discount": 18,
+      "rating": 4.5,
+      "reviews": 220,
+      "image": "https://m.media-amazon.com/images/I/71K++3+FpRL._SL1500_.jpg",
+      "brand": "LG",
+      "color": "Silver",
+      "sizes": [],
+      "category": "appliances",
+      "description": "Top load fully automatic washing machine.",
+      "details": {
+        "Capacity": "7 Kg",
+        "Type": "Fully Automatic",
+        "Warranty": "2 Years"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Prestige Induction Cooktop",
+      "price": 1899,
+      "originalPrice": 2999,
+      "discount": 37,
+      "rating": 4.3,
+      "reviews": 167,
+      "image": "https://m.media-amazon.com/images/I/71VOXnD+6hL._SL1500_.jpg",
+      "brand": "Prestige",
+      "color": "Black",
+      "sizes": [],
+      "category": "appliances",
+      "description": "2000W induction with push button controls.",
+      "details": {
+        "Power": "2000W",
+        "Controls": "Soft Touch",
+        "Preset Menu": "Yes"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Philips Mixer Grinder",
+      "price": 3299,
+      "originalPrice": 4599,
+      "discount": 28,
+      "rating": 4.2,
+      "reviews": 245,
+      "image": "https://m.media-amazon.com/images/I/51lKx4YwYCL._SL1000_.jpg",
+      "brand": "Philips",
+      "color": "White and Blue",
+      "sizes": [],
+      "category": "appliances",
+      "description": "750W mixer grinder with 3 jars.",
+      "details": {
+        "Motor": "750W",
+        "Jars": "3",
+        "Blade Type": "Stainless Steel"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Lego Classic Bricks Set",
+      "price": 1299,
+      "originalPrice": 1499,
+      "discount": 13,
+      "rating": 4.7,
+      "reviews": 530,
+      "image": "https://m.media-amazon.com/images/I/81CTlB+BCeL._SL1500_.jpg",
+      "brand": "LEGO",
+      "color": "Multi",
+      "sizes": [],
+      "category": "toys",
+      "description": "Creative brick set with 500+ pieces.",
+      "details": {
+        "Age": "4+ years",
+        "Material": "Plastic",
+        "Pieces": "500+"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Remote Control Car",
+      "price": 899,
+      "originalPrice": 1299,
+      "discount": 31,
+      "rating": 4.2,
+      "reviews": 154,
+      "image": "https://m.media-amazon.com/images/I/61g7kRLoIPL._SL1200_.jpg",
+      "brand": "Toyshine",
+      "color": "Red",
+      "sizes": [],
+      "category": "toys",
+      "description": "High-speed RC racing car with rechargeable battery.",
+      "details": {
+        "Battery": "Rechargeable",
+        "Control": "Remote",
+        "Age Group": "6+ years"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Barbie Dreamhouse Doll",
+      "price": 5999,
+      "originalPrice": 6999,
+      "discount": 14,
+      "rating": 4.5,
+      "reviews": 289,
+      "image": "https://m.media-amazon.com/images/I/81KZnG0rbzL._SL1500_.jpg",
+      "brand": "Barbie",
+      "color": "Pink",
+      "sizes": [],
+      "category": "toys",
+      "description": "Barbie Dreamhouse with furniture and accessories.",
+      "details": {
+        "Includes": "Furniture, Lights, Accessories",
+        "Age": "3+ years"
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Sakshi",
+      "email": "sakshi@example.com",
+      "password": "Sakshi@123",
+      "address": "123 Main St",
+      "city": "Mumbai",
+      "state": "MH",
+      "pincode": "400001",
+      "phone": "9876543210"
+    },
+    {
+      "id": "u2",
+      "email": "kharchansakshi88@gmail.com",
+      "password": "Sakshi@123"
+    },
+    {
+      "id": "u3",
+      "email": "ram@gmail.com",
+      "password": "ram@123"
+    }
+  ],
+  "orders": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "slug": "electronics"
+    },
+    {
+      "id": 2,
+      "name": "Fashion",
+      "slug": "fashion"
+    },
+    {
+      "id": 3,
+      "name": "Home",
+      "slug": "home"
+    },
+    {
+      "id": 4,
+      "name": "Appliances",
+      "slug": "appliances"
+    },
+    {
+      "id": 5,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ]
+}
