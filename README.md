@@ -1,16 +1,100 @@
-<<<<<<< HEAD
-# V2S-EcommerceApp
-=======
-# React + Vite
+E-COMMERCE PRODUCT FILTER APP
+=============================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DESCRIPTION:
+------------
+This is a simple e-commerce product listing application built using:
+- React (Frontend)
+- Redux Toolkit (State Management)
+- JSON Server (Mock Backend)
 
-Currently, two official plugins are available:
+Users can:
+- Filter products by category, size, color, brand, and price.
+- Sort products by price or popularity.
+- Load more products dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------
+PROJECT STRUCTURE:
+------------------
+src/
+├── components/
+│   └── Product/
+│       └── Filters.jsx       // Dropdown filters component
+├── pages/
+│   └── ProductList.jsx       // Main page with filter logic and product display
+├── redux/
+│   └── slices/
+│       └── productSlice.js   // Redux slice with actions and async thunks
+├── App.jsx
+└── index.js
 
-## Expanding the ESLint configuration
+------------------------------------
+GETTING STARTED:
+-----------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> c03fb49 (Project Done)
+1. INSTALL DEPENDENCIES
+-----------------------
+> npm install
+
+2. START JSON SERVER
+--------------------
+Ensure you have a db.json file in your project root.
+Run:
+> npx json-server --watch db.json --port 5000
+
+JSON Server will be available at: http://localhost:5000/products
+
+3. START THE REACT APP
+----------------------
+> npm start
+
+This will run the app at: http://localhost:3000
+
+------------------------------------
+db.json SAMPLE:
+----------------
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Nike Air Max",
+      "category": "Footwear",
+      "size": ["M", "L"],
+      "color": "Red",
+      "brand": "Nike",
+      "price": 5000,
+      "popularity": 90
+    }
+  ]
+}
+
+------------------------------------
+FEATURES:
+---------
+- Product listing with styled product cards
+- Filters by:
+  * Category
+  * Size
+  * Color
+  * Brand
+  * Price Range
+- Sort by:
+  * Price (Low to High / High to Low)
+  * Popularity
+- Pagination: Load more button
+
+------------------------------------
+TROUBLESHOOTING:
+----------------
+If you get the error:
+> "onFilterChange is not a function"
+
+Make sure:
+1. You're passing the `onFilterChange` and `onSortChange` props correctly to the `<Filters />` component.
+2. The parent component (like `Shop.jsx` or `ProductList.jsx`) defines and passes those handler functions.
+
+------------------------------------
+AUTHOR:
+-------
+Built by: Sakshi Kharchan
+GitHub: https://github.com/sakshikharchan
